@@ -23,7 +23,10 @@ for l in f.gsub_lookups:
   for t in f.getLookupInfo(l)[2]:
     fe = fe + (
       (t[0],(
+        ("DFLT",("dflt",)),
         ("latn",("dflt",)),
+        ("grek",("dflt",)),
+        ("cyrl",("dflt",)),
         ("kana",("JAN ", "dflt")),
         ("hani",("dflt",)))),)
   f.lookupSetFeatureList(l, fe)
