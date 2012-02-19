@@ -28,7 +28,7 @@ for l in f.gsub_lookups:
         ("grek",("dflt",)),
         ("cyrl",("dflt",)),
         ("kana",("JAN ", "dflt")),
-        ("hani",("dflt",)))),)
+        ("hani",("JAN ", "dflt")))),)
   f.lookupSetFeatureList(l, fe)
 
 # 3. vertical metrics
